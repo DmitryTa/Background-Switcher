@@ -3,7 +3,7 @@ function BgSwitcher(options) {
  	var time = this._time = options.time || null;
 	this.currentSlide = 0;
 	this._timerId;
-	this._elem.style.transition = 'background 1.6s ease'
+	
 	
 	 self = this;
 	 
